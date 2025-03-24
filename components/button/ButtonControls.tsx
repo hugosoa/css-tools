@@ -188,7 +188,7 @@ export const ButtonControls: React.FC<ButtonControlsProps> = (props) => {
                     onChange={props.setLetterSpacing}
                     min={-2}
                     max={10}
-                    step={0.1}
+                // step={0.1}
                 />
 
                 <h3 className="text-md font-medium mt-4 mb-2 text-gray-800 dark:text-gray-200 border-b border-gray-200 dark:border-gray-800 pb-1">
